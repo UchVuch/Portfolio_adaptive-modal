@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модалка</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="libs.min.js"></script>
+    <script defer src="ref/main.js"></script>
+</head>
+
+<body>
+    <div class="product-modal">
+        <div class="product-modal__block">
+            <div class="produc-modal__close"></div>
+            <div class="product-modal__inner">
+                <div class="product-modal__slider js-carousel owl-loaded owl-drag">
+                        <img src="images/slider-image-1.jpg" width="301px" height="406px" alt="Девушка в бежевой блузке">
+                        <img src="images/slider-image-1.jpg" width="301px" height="406px" alt="Девушка в бежевой блузке">
+                        <img src="images/slider-image-1.jpg" width="301px" height="406px" alt="Девушка в бежевой блузке">
+                </div>
+                <div class="product-modal__content">
+                    <div class="product-modal__info modal-info">
+                        <h3 class="modal-info__name title"> Блузка из искусственной кожи LO бежевая</h3>
+                        <span class="modal-info__article">Артикул: <span data="article-code">0322200518</span></span>
+                        <span class="modal-info__price"> <span class="price-sale">24590 руб.</span> <span
+                                class="price-total">17213 руб.</span></span>
+                        <span class="modal-info__colors-subtitle">Цвет</span>
+                        <div class="modal-info__colors">
+                            <div>
+                                <input id="modal-color-1" class="color" type="radio" name="color" value="beige"
+                                    checked="checked">
+                                <label for="modal-color-1" style="background: #D4C1B7;" title="Бежевый"></label>
+                            </div>
+                            <div>
+                                <input id="modal-color-2" class="color" type="radio" name="color" value="brown">
+                                <label for="modal-color-2" style="background: #A97A10;" title="Коричневый"></label>
+                            </div>
+                            <div>
+                                <input id="modal-color-3" class="color" type="radio" name="color" value="olive">
+                                <label for="modal-color-3" style="background: #808000;" title="Оливковый"></label>
+                            </div>
+                            <div>
+                                <input id="modal-color-4" class="color" type="radio" name="color" value="black">
+                                <label for="modal-color-4" style="background: #000000;" title="Черный"></label>
+                            </div>
+                        </div>
+                        <span class="modal-info__sizes-subtitle">Выбери размер</span>
+                        <div class="modal-info__sizes">
+                            <div>
+                                <input id="modal-size-1" class="size" type="radio" name="size" value="42"
+                                    checked="checked">
+                                <label for="modal-size-1" title="42 размер">42</label>
+                            </div>
+                            <div>
+                                <input id="modal-size-2" class="size" type="radio" name="size" value="44">
+                                <label for="modal-size-2" title="44 размер">44</label>
+                            </div>
+                            <div>
+                                <input id="modal-size-3" class="size" type="radio" name="size" value="46">
+                                <label for="modal-size-3" title="46 размер">46</label>
+                            </div>
+                            <div>
+                                <input id="modal-size-4" class="size" type="radio" name="size" value="48">
+                                <label for="modal-size-4" title="48 размер">48</label>
+                            </div>
+                            <div>
+                                <input id="modal-size-5" class="size" type="radio" name="size" value="50">
+                                <label for="modal-size-5" title="50 размер">50</label>
+                            </div>
+                            <div>
+                                <input id="modal-size-6" class="size" type="radio" name="size" value="52">
+                                <label for="modal-size-6" title="52 размер">52</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="modal-info__button" title="В корзину" type="submit">В корзину</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
